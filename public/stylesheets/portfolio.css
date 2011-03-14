@@ -1,0 +1,160 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-size:100%;
+	font-family:"Times New Roman", Roman, Times, Georgia;
+	
+	}
+	body{
+	background-color:#f2f2f2;
+	}
+	
+	#general_960{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	height:auto;
+	}
+	
+	
+	#fond_menu{
+	float:left;
+	overflow:hidden;
+	width:1100px;
+	height:300px;
+	position:absolute;
+	background:url('images/entete1100.png') no-repeat;
+	margin-left:-360px;
+	z-index:-1;
+	}
+	
+	
+	
+	#entete{
+
+	padding:15px 0 0 15px;
+	background:url('images/logo.png') no-repeat bottom right;
+	height:52px;
+	width:365px;
+	z-index:2;
+	}
+	#menu_principal{
+	width:400px;
+	height:200px;
+	
+	
+	margin-top:-150px;
+	}
+	.lien_principal{
+	text-decoration:none;
+	border:none;
+	}
+	#accueil{
+	float:left;
+	margin:261px 0 0 8px;
+	}
+	#cv{
+	float:left;
+	margin:242px 0 0 0px;
+	}
+	#contact{
+	float:left;
+	margin:230px 0 0 0px;
+	}
+	
+	#zone_presentation{
+	clear:both;
+	width:420px;
+	font-size:1.1em;
+	color:#7f7f7f;
+	margin-top:180px;
+	margin-left:490px;
+	margin-bottom:5px;
+	
+	}
+	#fond_sous_titre{
+	overflow:hidden;
+	width:1320px;
+	position:static;
+	background:url('images/sousTitre.png') repeat-y;
+	margin-left:-360px;
+	height:60px;
+
+	}
+	#zone_titre{
+	padding:8px 0 0 15px;
+	margin-left:360px;
+	width:217px;
+	height:45px;
+	background:url('images/realisation_titre.png') no-repeat bottom right;
+	z-index:2;
+	}
+	#contenu_principal{
+
+
+	height:auto;
+	width:100%;
+	margin-bottom:-40px;
+	z-index:2;
+	padding-bottom:65px;
+	}
+	
+	#menu_pied{
+
+	background:#1e1011;
+	
+	width:100%;
+	overflow:hidden;
+	height:40px;
+	
+	
+	font-size:0.8em;
+
+	
+	}
+	#texte_pied{
+	margin:0 auto;
+	width:945px;
+	height:28px;
+	color:#f1e4c4;
+	padding:12px 0 0 15px;
+	}
+	#realisation{
+	
+	height:auto;
+	}
+	.rea{
+	height:190px;
+	width:260px;
+	background:grey;
+	float:left;
+
+	margin:0 20px 0  20px;
+	}
+	.fin{
+	margin-right:0px;
+	}
+	.rea_l1,.rea_l2,.rea_l3{
+	list-style-type: none;
+	height:190px;
+	clear:both;
+	text-decoration: none;
+	padding-left:30px;
+	}
+	.rea_l1{
+	padding-top:25px;
+	}
+	.rea_l2,.rea_l3{
+	
+	padding-top:25px;
+	}
+
+	#lightbox-image-details-caption{
+	color:black;
+	font-size:1.2em;
+	}
+	.img_rea{
+	margin:5px 0 0 5px;
+	border:0px;
+	}
